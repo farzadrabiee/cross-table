@@ -4,7 +4,8 @@
   "description": "## Setup * **Node** ``` npm init -y ```",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack"
+    "dev": "webpack",
+    "eslint": "eslint src"
   },
   "repository": {
     "type": "git",

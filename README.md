@@ -26,6 +26,12 @@ npm i --save-dev @types/node ts-loader
 npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint typescript
 ```
 
+* **Create eslintrc.cjs file for the ESLint**
+Running ESLint
+```
+npx eslint src
+```
+
 * **TailWindCSS**
 ```
 npm install --save-dev tailwindcss
