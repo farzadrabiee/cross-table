@@ -31,6 +31,11 @@ npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugi
 npm install --save-dev tailwindcss
 ```
 
+* **Install RxJS**
+```
+npm i rxjs
+```
+
 * **Webpack**
 ```
 npm install webpack webpack-cli --save-dev
