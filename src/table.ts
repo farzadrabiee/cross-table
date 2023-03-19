@@ -14,7 +14,7 @@ const createTableElement = (row: number, col: number) => {
     for (let i = 0; i < row; i++) {
         tableContent += `<tr>`
         for (let j = 0; j < col; j++) {
-            tableContent += `<td>[${i}, ${j}]</td>`
+            tableContent += `<td class="text-xl p-1.5 border-4 border-amber-600">[${i}, ${j}]</td>`
         }
         tableContent += `</tr>`
     }

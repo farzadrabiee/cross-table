@@ -34,7 +34,16 @@ npx eslint src
 
 * **TailWindCSS**
 ```
-npm install --save-dev tailwindcss
+npm install tailwindcss autoprefixer postcss-cli style-loader css-loader
+npm install --save-dev postcss-loader postcss
+```
+* **Create the config for postcss**
+```
+postcss.config.js
+```
+* **Create a config file for Tailwindcss**
+```
+tailwindcss init
 ```
 
 * **Install RxJS**

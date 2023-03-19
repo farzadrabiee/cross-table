@@ -1,3 +1,4 @@
+import '../public/styles/style.css';
 import {addTableToDOM} from "./table";
 
 const mainElement = document.getElementById('main')
