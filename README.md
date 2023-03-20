@@ -34,8 +34,8 @@ npx eslint src
 
 * **TailWindCSS**
 ```
-npm install tailwindcss autoprefixer postcss-cli style-loader css-loader
-npm install --save-dev postcss-loader postcss
+npm install tailwindcss autoprefixer postcss-cli css-loader
+npm install --save-dev postcss-loader postcss mini-css-extract-plugin
 ```
 * **Create the config for postcss**
 ```
